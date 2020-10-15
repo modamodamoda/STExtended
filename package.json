@@ -1,0 +1,19 @@
+{
+  "name": "@jlpenny/stextended",
+  "version": "0.0.1",
+  "description": "Static site generator with a kick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "stextended": "./bin/stextended.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "htmlparser2": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "@jlpenny/staticton": "^0.0.1"
+  }
+}
